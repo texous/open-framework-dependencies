@@ -5,11 +5,11 @@
 
     <groupId>cn.texous.open.base</groupId>
     <artifactId>open-framework-dependencies</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <open-framework.version>1.0.0</open-framework.version>
+        <open-framework.version>1.1.0</open-framework.version>
     </properties>
 
     <dependencyManagement>
