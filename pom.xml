@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.texous.open.base</groupId>
+    <artifactId>open-framework-dependencies</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <open-framework.version>1.0.0</open-framework.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.texous.open.base</groupId>
+                <artifactId>open-commons</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.base</groupId>
+                <artifactId>open-utils</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-json-starter</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-redis-starter</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-mybatis-plus-starter</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-feign-starter</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-web-starter</artifactId>
+                <version>${open-framework.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- 本地快照 和release 发布 的配置 -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>${NEXUS-SNAPSHOT-URL}</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>${NEXUS-RELEASE-URL}</url>
+        </repository>
+    </distributionManagement>
+
+</project>
