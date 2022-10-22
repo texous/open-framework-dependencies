@@ -8,6 +8,12 @@
     <version>1.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <scm>
+        <connection>scm:svn:https://github.com/texous/open-framework-dependencies.git</connection>
+        <developerConnection>scm:svn:https://github.com/texous/open-framework-dependencies.git</developerConnection>
+        <url>scm:svn:https://github.com/texous/open-framework-dependencies</url>
+    </scm>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
