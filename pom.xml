@@ -8,6 +8,10 @@
     <version>1.1.2.1</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <open-framework-dependencies.version>1.1.2.1</open-framework-dependencies.version>
+    </properties>
+
     <scm>
         <connection>scm:svn:https://github.com/texous/open-framework-dependencies.git</connection>
         <developerConnection>scm:svn:https://github.com/texous/open-framework-dependencies.git</developerConnection>
@@ -19,37 +23,37 @@
             <dependency>
                 <groupId>cn.texous.open.base</groupId>
                 <artifactId>open-commons</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.base</groupId>
                 <artifactId>open-utils</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-json-starter</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-redis-starter</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-mybatis-plus-starter</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-feign-starter</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-web-starter</artifactId>
-                <version>${project.version}</version>
+                <version>${open-framework-dependencies.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
