@@ -5,11 +5,18 @@
 
     <groupId>cn.texous.open.base</groupId>
     <artifactId>open-framework-dependencies</artifactId>
-    <version>1.1.2.1</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <open-framework-dependencies.version>1.1.2.1</open-framework-dependencies.version>
+        <open-commons.version>1.2.0</open-commons.version>
+        <open-utils.version>1.2.0</open-utils.version>
+
+        <open-json-starter.version>1.2.0</open-json-starter.version>
+        <open-redis-starter.version>1.2.0</open-redis-starter.version>
+        <open-mybatis-plus-starter.version>1.2.0</open-mybatis-plus-starter.version>
+        <open-feign-starter.version>1.2.0</open-feign-starter.version>
+        <open-web-starter.version>1.2.0</open-web-starter.version>
     </properties>
 
     <scm>
@@ -23,37 +30,37 @@
             <dependency>
                 <groupId>cn.texous.open.base</groupId>
                 <artifactId>open-commons</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-commons.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.base</groupId>
                 <artifactId>open-utils</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-utils.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-json-starter</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-json-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-redis-starter</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-redis-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-mybatis-plus-starter</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-mybatis-plus-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-feign-starter</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-feign-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-web-starter</artifactId>
-                <version>${open-framework-dependencies.version}</version>
+                <version>${open-web-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
