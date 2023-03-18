@@ -17,6 +17,7 @@
         <open-mybatis-plus-starter.version>1.2.0</open-mybatis-plus-starter.version>
         <open-feign-starter.version>1.2.0</open-feign-starter.version>
         <open-web-starter.version>1.2.0</open-web-starter.version>
+        <open-mq-starter.version>1.2.0</open-mq-starter.version>
     </properties>
 
     <scm>
@@ -61,6 +62,11 @@
                 <groupId>cn.texous.open.starter</groupId>
                 <artifactId>open-web-starter</artifactId>
                 <version>${open-web-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.texous.open.starter</groupId>
+                <artifactId>open-mq-starter</artifactId>
+                <version>${open-mq-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
